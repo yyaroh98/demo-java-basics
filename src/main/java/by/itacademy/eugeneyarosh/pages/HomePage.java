@@ -22,8 +22,8 @@ public class HomePage extends BasePage {
         return title;
     }
 
-    public String clickLogin() {
-        return "Пользователь кликнул по кнопке Войти";
+    public void clickLogin() {
+        System.out.println("Пользователь кликнул по кнопке Войти");
     }
 }
 
