@@ -17,5 +17,7 @@ public class LoginPage extends BasePage {
         System.out.println("Пользователь открыл страницу " + getLOGIN_PAGE());
     }
 
-
+    public String getTitle() {
+        return title;
+    }
 }
