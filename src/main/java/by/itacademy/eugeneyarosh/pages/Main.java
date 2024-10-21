@@ -10,6 +10,5 @@ public class Main {
         LoginPage loginPage = new LoginPage();
         loginPage.open();
         System.out.println(loginPage.getTitle());
-
     }
 }
